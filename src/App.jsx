@@ -139,37 +139,24 @@ const App = () => {
           <div className='response-container'>
             <h2 >POST Response</h2>
             <p className='res-status'>
-              <span>status</span>
-              <span>
-                {postRequestData.status}
-              </span>
+              status :
+              {postRequestData.status}
             </p>
             <p>
-              <span>ID</span>
-              <span>
-                {postRequestData.data.id}
-              </span>
-            </p>
-            <p><span>
-              Title
-            </span>
-              <span>
-                {postRequestData.data.title}
-              </span>
+              ID :
+              {postRequestData.data.id}
             </p>
             <p>
-              <span>Body</span>
-              <span>
-                {postRequestData.data.body}
-              </span>
+              Title :
+              {postRequestData.data.title}
             </p>
-            <p><span>
-              User Id
-            </span>
-
-              <span>
-                {postRequestData.data.userId}
-              </span>
+            <p>
+              Body :
+              {postRequestData.data.body}
+            </p>
+            <p>
+              User Id :
+              {postRequestData.data.userId}
             </p>
           </div>
         </div>
@@ -178,36 +165,24 @@ const App = () => {
           <div className='response-container'>
             <h2>PUT Response</h2>
             <p className='res-status'>
-              <span>status</span>
-              <span>
-                {putRequestData.status}
-              </span>
+              status:
+              {putRequestData.status}
             </p>
             <p>
-              <span>ID</span>
-              <span>
-                {putRequestData.data.id}
-              </span>
-            </p>
-            <p><span>
-              Title
-            </span>
-              <span>
-                {putRequestData.data.title}
-              </span>
+              ID :
+              {putRequestData.data.id}
             </p>
             <p>
-              <span>Body</span>
-              <span>
-                {putRequestData.data.body}
-              </span>
+              Title :
+              {putRequestData.data.title}
             </p>
-            <p><span>
-              User Id
-            </span>
-              <span>
-                {putRequestData.data.userId}
-              </span>
+            <p>
+              Body :
+              {putRequestData.data.body}
+            </p>
+            <p>
+              User Id :
+              {putRequestData.data.userId}
             </p>
           </div>
         </div>
